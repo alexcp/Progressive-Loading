@@ -1,9 +1,9 @@
 <div class="container">
   <h1>Text Center</h1>
   <div class="row">
-    <% 40.times do |i| %>
+    <% 10.times do |i| %>
       <div class="col-md-3">
-        <%= image_tag "image.jpg?q=#{i}", class: "img-thumbnail", style: "width: 100%; height: initial;" %>
+        <%= image_tag "image.jpg?q=#{i}", class: "img-thumbnail", width: 260, height: 170, progressive: "image-tiny.jpg?q=#{i}" %>
       </div>
     <% end %>
   </div>

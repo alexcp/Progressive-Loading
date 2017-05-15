@@ -2,7 +2,8 @@ PATH
   remote: ../..
   specs:
     progressive_loading (0.1.0)
-      actionview (~> 4.2)
+      actionview (>= 4.2)
+      railties (>= 4.2)
 
 GEM
   remote: https://rubygems.org/
